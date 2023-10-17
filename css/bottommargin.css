@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,600;1,100&family=Titillium+Web:wght@200&display=swap');
+
+.bottom {
+    margin-bottom: 15px;
+    padding-bottom: 7px;
+}
+
+.head p {
+    font-size: 27px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+*{
+    border-radius: 5px;
+}
