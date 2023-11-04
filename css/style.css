@@ -5,6 +5,7 @@
 
 body {
     background-color: #f0f0f0;
+    
 }
 
 header {
@@ -24,6 +25,7 @@ header {
     padding: 12px 0;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid gray;
 }
 
 .flipkart-logo {
@@ -34,11 +36,11 @@ header {
     align-items: center;
 }
 
-.flipkart-logo p {
+.flipkart-logo pre {
     margin: 0 0 0 63px;
 }
 
-.flipkart-logo p Span {
+.flipkart-logo pre Span {
     color: gold;
 }
 
@@ -82,8 +84,11 @@ header {
     margin: 4px 0 0 2vw;
 }
 
-.navbar ul li span:hover {
+.navbar ul li span{
     rotate: 180deg;
+}
+.navbar ul li span:hover {
+    rotate: 0deg;
     font-size: large;
 }
 
@@ -144,7 +149,7 @@ header {
 .third-row {
     background-color: rgb(255, 255, 255);
     width: 84vw;
-    overflow-x: scroll;
+    overflow-x: hidden;
 }
 
 .head {
